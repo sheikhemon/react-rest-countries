@@ -1,14 +1,10 @@
 import './App.css';
-import Countries from './componetns/Countries/Countries';
-import Person from './componetns/Person/Person';
-import Header from './componetns/Header/Header';
+import Countries from './Components/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Countries></Countries>
-      <Person></Person>
     </div>
   );
 }
