@@ -1,9 +1,13 @@
 import React from 'react';
+import './Country.css'
 
-const Country = () => {
+const Country = (props) => {
+    // Distracture
+    const { name, capital, region } = props.country;
     return (
-        <div>
-            <h4>This is a single country</h4>
+        <div className="country">
+            <h4>This is : {name}</h4>
+            <p>Capital: {capital} Region: {region}</p>
         </div>
     );
 };
