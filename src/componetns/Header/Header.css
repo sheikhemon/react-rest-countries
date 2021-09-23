@@ -1,0 +1,14 @@
+.menu {
+    margin-top: 40px;
+}
+
+.menu a {
+    background-color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(252, 244, 244);
+    border-radius: 10px;
+}
